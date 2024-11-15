@@ -1,18 +1,20 @@
 .flex-container-1{
     background-color: #1F2937;
-    width: 1000px; 
-    justify-content: center;
+    width: 1500px; 
+    height: 500px;  
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:  15px;
     
     
 }
 
+
+
 .flex-container-3{
     display:flex;
     flex-direction:row;
-    background-color: #1F2937;
-    width: 1000px;
     height: 250px;
-    justify-content: center;
     flex-basis: 40px;
 
 
@@ -27,6 +29,7 @@
     display:flex;
     flex-direction: column;
     flex:auto; 
+    color:white; 
     
 
 
@@ -37,10 +40,59 @@
     justify-content: end;
     font-family:Arial, Helvetica, sans-serif;
     color: white;
+    /*padding influences distance between text material and border of div*/
+    padding:15px;
     
     
 
 }
+
+
+
+.flex-container-4{
+   
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    width: 1000px;
+    /*To be honest, no idea why this works for centering.*/
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.item-2{
+    flex:auto; 
+    justify-items: center;
+    margin: 10px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    flex-direction:column; 
+
+
+
+
+}
+
+.text{
+
+    margin:15px;
+}
+
+
+.subitem{
+    outline:5px solid #3882F6;
+    width:150px;
+    height: 150px;
+    /*gives rounded corners*/
+    border-radius: 20px;
+    flex:auto;
+
+
+}
+
 
 
 .item-1 {
@@ -56,5 +108,27 @@
 }
 
 .RandomInfo{
+    /*Centering works pretty easily with flex when the div doesn't encommpass other shit*/
+    display:flex; 
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large; 
+}
+
+
+.flex-container-gray{
+
+    display:flex; 
+    background-color:#E5E7EB;
+    width: 1500px; 
+    height: 500px;  
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;   /* Vertical centering */
+    text-align: center;    /* Ensure text is centered within each line */
+    border-radius: 15px;
+    font-size: larger;
+
+
 }
