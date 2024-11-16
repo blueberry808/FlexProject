@@ -132,3 +132,39 @@
 
 
 }
+.flex-container-blue{
+
+    display:flex;
+    background-color: #3882F6;
+    width:1000px; 
+    height: 250px;
+    margin:100px;
+    flex-direction: row;
+    border-radius: 15px;  
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;   /* Vertical centering */
+    text-align: center;    /* Ensure text is centered within each line */
+    border-radius: 15px
+
+
+
+}
+
+.internal-container-1{
+    flex:auto; 
+    flex-direction: column;
+    display: flex;
+}
+
+.textItem{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.internal-container-2{
+    outline:10px solid white;
+
+}
