@@ -161,10 +161,21 @@
 .textItem{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
+    flex:auto; 
 
 }
 
 .internal-container-2{
     outline:10px solid white;
+    width:50px; 
+    height:100px; 
+    flex:auto;
+    margin:30px; 
+    border-radius: 15px;
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+        text-align: center;
+    
 
 }
